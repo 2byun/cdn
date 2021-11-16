@@ -1,0 +1,48 @@
+html, body {
+  margin: 0;
+  overflow: auto;
+}
+.help-main {
+  padding: 15px 0 0 0;
+}
+.help-main .section {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
+}
+.help-main .section-title {
+  margin-bottom: 20px;
+}
+.help-main .container {
+  width: 100%;
+}
+.section .container .row {
+  border: 1px solid #fff;
+}
+.help-main h3 {
+  font-weight: normal;
+}
+.help-main .section-title .top {
+  margin: 0;
+}
+.help-main span {
+  line-height: 1.5em;
+}
+@media (max-width:769px) {
+  .help-main .section {
+    width: 99%;
+  }
+}
+.fdm-down {
+  text-align: center
+}
+.fdm-down .fdm-img {
+  display: none;
+  width: 100%
+}
+.fdm-down .fdm-ios {
+  margin-top: 50px;
+  text-align: center;
+  line-height: 35px
+}
